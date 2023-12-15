@@ -5,27 +5,26 @@ import React, { useState } from "react";
 //массив данных для отображения
 const INITIAL_EVENTS = [
   {
-    id : 'c1',
+    id: "c1",
     date: new Date(2023, 0, 4),
-    name: 'Bartholomew Henry Allen',
-    mail: 'flash@gmail.com'
+    name: "Bartholomew Henry Allen",
+    mail: "flash@gmail.com",
   },
   {
-    id : 'c2',
+    id: "c2",
     date: new Date(2023, 0, 23),
-    name: 'Oliver Jonas Queen',
-    mail: 'arrow@gmail.com'
+    name: "Oliver Jonas Queen",
+    mail: "arrow@gmail.com",
   },
   {
-    id : 'c3',
+    id: "c3",
     date: new Date(2023, 0, 12),
-    name: 'Cara Danvers',
-    mail: 'supergirl@gmail.com'
-  }
+    name: "Cara Danvers",
+    mail: "supergirl@gmail.com",
+  },
 ];
 
 function App() {
-
   const [events, setEvents] = useState(INITIAL_EVENTS);
 
   // при добавлении нового спред всех предыдущих
@@ -42,9 +41,9 @@ function App() {
       <h1>BVT-Force Project</h1>
       <h3>__Система бронирования__</h3>
       {/* объект добавления */}
-      <NewEvent onAddEvent={addEventHandler}/> 
+      <NewEvent onAddEvent={addEventHandler} />
       {/* поле где отображаются данные массива */}
-      <Events events={events}/>
+      <Events events={events} />
     </div>
   );
 }

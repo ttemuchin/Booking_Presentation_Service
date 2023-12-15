@@ -42,7 +42,7 @@ const EventForm = (props) => {
             </div>
             <div className="new-event__control">
                 <label>Почта</label>
-                <input type="text"
+                <input type="email"
                 value={inputMail} onChange={mailChangeHandler}/>
             </div>
             <div className="new-event__control">
