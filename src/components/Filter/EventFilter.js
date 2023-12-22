@@ -4,7 +4,7 @@ const EventsFilter = (props) => {
   const monthChangeHandler = (event) => {
     props.onChangeMonth(event.target.value);
   };
-// нужен фильтр по месяцам
+  // нужен фильтр по месяцам
   return (
     <div className="events-filter">
       <div className="events-filter__control">
@@ -28,4 +28,4 @@ const EventsFilter = (props) => {
   );
 };
 
-export default EventsFilter; 
+export default EventsFilter;

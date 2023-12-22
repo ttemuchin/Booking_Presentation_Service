@@ -1,27 +1,27 @@
 .new-event {
-    background-color: #61366e9d;
-    padding: 1rem;
-    margin: 2rem auto;
-    width: 70rem;
-    max-width: 95%;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.25);
-  }
-  
-  .new-event button {
-    font: inherit;
-    cursor: pointer;
-    padding: 1rem 2rem;
-    border: 1px solid #000000;
-    background-color: #51006998;
-    color: #fefae1;
-    border-radius: 10px;
-    margin-right: 3px;
-  }
-  
-  .new-event button:hover,
-  .new-event button:active {
-    background-color: #51006963;
-    border-color: #23002e;
-  }
+  background-color: #61366e9d;
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 70rem;
+  max-width: 95%;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 1px 7px rgba(0, 0, 0, 0.25);
+}
+
+.new-event button {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 1px solid #000000;
+  background-color: #51006998;
+  color: #fefae1;
+  border-radius: 10px;
+  margin-right: 3px;
+}
+
+.new-event button:hover,
+.new-event button:active {
+  background-color: #51006963;
+  border-color: #23002e;
+}

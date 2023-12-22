@@ -1,9 +1,9 @@
 .diagram {
-    padding: 1rem;
-    border-radius: 12px;
-    background-color: #ccf3ffaf;
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-    height: 2.7rem;
-  }
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: #ccf3ffaf;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  height: 2.7rem;
+}

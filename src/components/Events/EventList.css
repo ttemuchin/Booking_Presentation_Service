@@ -1,9 +1,0 @@
-.event-list {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .event-list__fallback {
-    color: #fefae1;
-    text-align: center;
-  }
