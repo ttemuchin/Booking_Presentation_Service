@@ -4,7 +4,7 @@
     align-items: center;
     padding: 0.5rem;
     margin: 1rem 0;
-    background-color: #bd8025;
+    background-color: #ccf3ff9a;
     /* border-bottom-left-radius: 20px; */
     border-style: double;
     /* border-spacing: 50px;????? */
@@ -25,9 +25,10 @@
   .event-item h2 {
     color: #3a3a3a;
     font-size: 1rem;
+    font-style: italic;
     flex: 1;
     margin: 0 1rem;
-    color: #fefae1;
+    color: #000000;
   }
   
   .event-item__mail {

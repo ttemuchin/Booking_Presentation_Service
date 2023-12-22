@@ -10,7 +10,7 @@
     width: 100%;
     border: 1px solid #313131;
     border-radius: 12px;
-    background-color: #fefae1;
+    background-color: #00b928;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -18,13 +18,13 @@
   }
   
   .diagram-bar__fill {
-    background-color: #bd8025;
+    background-color: #c54a4a;
     width: 100%;
     transition: all 0.3s ease-out;
   }
   
   .diagram-bar__label {
     font-weight: bold;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     text-align: center;
   }

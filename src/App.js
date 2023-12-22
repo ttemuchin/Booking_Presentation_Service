@@ -1,7 +1,7 @@
 import Events from "./components/Events/Events";
 import NewEvent from "./components/NewEvent/NewEvent";
 import React, { useState } from "react";
-
+import './header.css';
 //массив данных для отображения
 const INITIAL_EVENTS = [
   {
@@ -38,8 +38,9 @@ function App() {
 
   return (
     <div>
-      <h1>BVT-Force Project</h1>
-      <h3>__Система бронирования__</h3>
+      <div class="border">
+          <h2>Система бронирования</h2>
+      </div>    
       {/* объект добавления */}
       <NewEvent onAddEvent={addEventHandler} />
       {/* поле где отображаются данные массива */}

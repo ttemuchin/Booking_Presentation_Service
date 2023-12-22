@@ -1,5 +1,5 @@
 .new-event {
-    background-color: #61366e;
+    background-color: #61366e9d;
     padding: 1rem;
     margin: 2rem auto;
     width: 70rem;
@@ -13,8 +13,8 @@
     font: inherit;
     cursor: pointer;
     padding: 1rem 2rem;
-    border: 1px solid #b9750f;
-    background-color: #510069;
+    border: 1px solid #000000;
+    background-color: #51006998;
     color: #fefae1;
     border-radius: 10px;
     margin-right: 3px;
@@ -22,6 +22,6 @@
   
   .new-event button:hover,
   .new-event button:active {
-    background-color: #5100698c;
-    border-color: #510069;
+    background-color: #51006963;
+    border-color: #23002e;
   }
