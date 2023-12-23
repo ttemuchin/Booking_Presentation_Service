@@ -1,5 +1,5 @@
-import Event_Item from "../Item/Event_Item";
-import "../List/EventList.css";
+import Event_Item from '../Item/Event_Item';
+import '../List/EventList.css';
 
 const EventList = (props) => {
   if (props.events.length === 0) {

@@ -1,26 +1,26 @@
-import Events from "./components/Events/Events";
-import NewEvent from "./components/NewEvent/NewEvent";
-import React, { useState } from "react";
-import "./header.css";
+import Events from './components/Events/Events';
+import NewEvent from './components/NewEvent/NewEvent';
+import React, { useState } from 'react';
+import './header.css';
 //массив данных для отображения
 const INITIAL_EVENTS = [
   {
-    id: "c1",
+    id: 'c1',
     date: new Date(2023, 0, 4),
-    name: "Bartholomew Henry Allen",
-    mail: "flash@gmail.com",
+    name: 'Bartholomew Henry Allen',
+    mail: 'flash@gmail.com',
   },
   {
-    id: "c2",
+    id: 'c2',
     date: new Date(2023, 0, 23),
-    name: "Oliver Jonas Queen",
-    mail: "arrow@gmail.com",
+    name: 'Oliver Jonas Queen',
+    mail: 'arrow@gmail.com',
   },
   {
-    id: "c3",
+    id: 'c3',
     date: new Date(2023, 0, 12),
-    name: "Cara Danvers",
-    mail: "supergirl@gmail.com",
+    name: 'Cara Danvers',
+    mail: 'supergirl@gmail.com',
   },
 ];
 

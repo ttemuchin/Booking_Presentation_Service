@@ -1,10 +1,10 @@
-import { useState } from "react";
-import "./EventForm.css";
+import { useState } from 'react';
+import './EventForm.css';
 
 const EventForm = (props) => {
-  const [inputName, setInputName] = useState("");
-  const [inputMail, setInputMail] = useState("");
-  const [inputDate, setInputDate] = useState("");
+  const [inputName, setInputName] = useState('');
+  const [inputMail, setInputMail] = useState('');
+  const [inputDate, setInputDate] = useState('');
 
   const nameChangeHandler = (event) => {
     setInputName(event.target.value);
@@ -26,9 +26,9 @@ const EventForm = (props) => {
     };
     // console.log(costData);
     props.onSaveEventData(eventData);
-    setInputName("");
-    setInputMail("");
-    setInputDate("");
+    setInputName('');
+    setInputMail('');
+    setInputDate('');
   };
 
   return (

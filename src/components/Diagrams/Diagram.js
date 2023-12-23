@@ -1,5 +1,5 @@
-import DiagramBar from "./DiagramBar";
-import "./Diagram.css";
+import DiagramBar from './DiagramBar';
+import './Diagram.css';
 
 const Diagram = (props) => {
   const dataSetsValues = props.dataSets.map((dataSet) => dataSet.value);

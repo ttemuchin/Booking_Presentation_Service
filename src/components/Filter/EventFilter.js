@@ -1,4 +1,4 @@
-import "./EventFilter.css";
+import './EventFilter.css';
 
 const EventsFilter = (props) => {
   const monthChangeHandler = (event) => {

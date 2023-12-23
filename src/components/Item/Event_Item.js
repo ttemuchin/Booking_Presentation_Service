@@ -1,6 +1,6 @@
-import "./Event_Item.css";
-import EventDate from "../Date/EventDate"; //////
-import Card from "../UI/Card";
+import './Event_Item.css';
+import EventDate from '../Date/EventDate'; //////
+import Card from '../UI/Card';
 
 function Event_Item(props) {
   return (
