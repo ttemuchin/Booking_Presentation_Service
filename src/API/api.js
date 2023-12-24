@@ -17,9 +17,9 @@ export const validationAPI = {
 
 export const bookingAPI = {
   bookingApi(email, name, date) {
-    return instance.post('/booking', { email, name, date });
+    return instance.post('/reservation', { email, name, date });
   },
-  bookingApi2(email, name, date) {
-    return instance.put('/booking', { email, name, date });
+  bookingApi2() {
+    return instance.get('/reservation');
   },
 };

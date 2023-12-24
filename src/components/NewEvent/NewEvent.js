@@ -54,8 +54,9 @@ const NewEvent = (props) => {
 
   const apiRequest = () => {
     bookingAPI.bookingApi(inputMail, inputName, inputDate).then((data) => {
-      debugger;
-      alert(data);
+      // debugger;
+      console.log(data);
+      // alert(data);
     });
   };
 
