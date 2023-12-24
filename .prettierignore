@@ -5,3 +5,17 @@ coverage
 **/.svn
 **/.hg
 **/node_modules
+*.svg
+*.png
+*.json
+*.md
+*.mdx
+.editorconfig
+.eslintignore
+.gitignore
+.prettierignore
+.stylelintignore
+.npmrc
+package.json
+/build
+node_modules
