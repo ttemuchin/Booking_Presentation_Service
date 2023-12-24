@@ -5,6 +5,7 @@ import { useState } from 'react';
 import { bookingAPI } from '../../API/api';
 
 const NewEvent = (props) => {
+  if (!props.reservAvailable) return null;
   const [inputName, setInputName] = useState('');
   const [inputMail, setInputMail] = useState('');
   const [inputDate, setInputDate] = useState('');

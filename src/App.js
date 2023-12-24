@@ -1,9 +1,9 @@
 import Events from './components/Events/Events';
 import NewEvent from './components/NewEvent/NewEvent';
 import React, { useEffect, useState } from 'react';
+import Form1 from './components/Registration/Form1';
 import { bookingAPI } from './API/api';
 import './header.css';
-//массив данных для отображения
 
 const INITIAL_EVENTS = [
   {
@@ -65,27 +65,33 @@ function App() {
     });
   }
 
+  function changePage(reservation, form1) {
+    setForm(reservation)
+    setReserv(form1)
+  }
+
   const [events, setEvents] = useState(INITIAL_EVENTS);
   useEffect(apiRequest, [])
   const [data, setData] = useState("")
 
+
+  const [reserv, setReserv] = useState(true)
+  // const [reserv1, setReserv1] = useState(true)
+  const [form, setForm] = useState(false)
+  debugger
   return (
     <div>
       <div className="border">
         <h2>Система бронирования</h2>
+        <button onClick={() => changePage(reserv, form)}>change</button>
       </div>
-      <NewEvent onAddEvent={addEventHandler} />
-      <Events events={events} />
+      
+      <NewEvent reservAvailable={reserv} onAddEvent={addEventHandler} />
+      <Events reservAvailable={reserv} events={events} />
+      <Form1 formAvailable={form}/>
       {/* <Events events={data} /> */}
-
     </div>
   );
 }
 
 export default App;
-
-//основа реакта - компоненты. но в html коде страницы они не
-// отображаются. реакт переписывает все по своему
-
-//Стрелочная функция характерна для js
-//const CostItem = (props) => {}

@@ -6,6 +6,7 @@ import EventList from '../List/EventList';
 import EventsDiagram from '../Diagrams/EventsDiagram';
 
 function Events(props) {
+  if (!props.reservAvailable) return null;
   //const [selectedYear, setSelectedYear] = useState('2021');
 
   // function yearChangeHandler(year) {
